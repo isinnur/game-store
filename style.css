@@ -552,3 +552,152 @@ html::-webkit-scrollbar {
     background: var(--main-color);
     width: 0%;
 }
+
+@media (max-width : 1080px){
+    .container{
+        margin: 0 auto;
+        width: 90%;
+    }
+
+    .nav{
+        padding: 10px 0;
+    }
+
+    .notification{
+        right: 4rem;
+    }
+
+    .menu img{
+        width: 500px;
+    }
+
+    .section{
+        padding: 3rem 0 2rem;
+    }
+
+    .home{
+        margin-top: 4rem !important;
+        min-height: 440px;
+    }
+
+    .home img{border-radius: 1rems;}
+
+    .new-content {
+        grid-template-columns: repeat(auto-fits,minmax(200px,auto));
+    }
+
+    .video-container{
+        margin-top: 5rem !important;
+    }
+}
+
+@media (max-width : 774px){
+    .notification{
+        right: 2rem;
+    }
+
+    .menu img{
+        width: 400px;
+    }
+
+    .home{
+        min-height: 300px;
+    }
+
+    .home-text h1{
+       font-size: 2rem; 
+    }
+
+    .btn{
+        padding: 12px 17px;
+    }
+    .screenshots-content{
+        grid-template-columns: repeat(auto-fit, minmax(250px,300px));
+    }
+
+}
+
+@media (max-width : 556px){
+    .menu img{
+        display: none;
+    }
+
+    .menu{
+        justify-content: flex-end;
+    }
+
+    .nav{
+        padding: 8px 0;
+    }
+    .home{
+        min-height: 240px;
+    }
+
+    .home-text{
+        padding-right: 1rem;
+    }
+    p{
+        font-size: 0.875rem;
+    }
+
+    .download-links{
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width:360px){
+    .logo{
+        font-size: 1.2rem;
+    }
+
+    .navbar a{
+       font-size: 1.3rem; 
+    }
+
+    .navbar a:hover{
+        font-size: 1.4rem;
+    }
+    .notification{
+       right: 1rem;
+       width: 270px; 
+    }
+
+    .home{
+        min-height: 214px;
+    }
+
+    .home-text h1{
+        font-size: 1.4rem;
+    }
+
+    .heading .fa-solid{
+        padding: 8px;
+    }
+
+    .heading h2{
+        font-size: 1.1rem;
+    }
+
+    .box{
+        height: 420px;
+    }
+
+    .copyright{
+        flex-direction: column;
+        align-items: center;
+        row-gap: 1rem;
+    }
+
+    .copyright .logo{
+        margin: 0;
+    }
+
+    .about h2{
+        font-size: 1.2rem;
+    }
+
+    .screenshots h2 .download h2{
+        font-size: 1.2rem;
+    }
+
+}
